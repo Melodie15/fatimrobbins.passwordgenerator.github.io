@@ -7,6 +7,14 @@ var letter = ["a", "b", "c", "d", "e", "f", "g", "i", "h","J", "k", "l", "m", "n
 
 var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
-for (var i = 0; i < character.length; i++) {
-    console.log(character[i]);
-  }
+var allOptions = [capLetter, character, letter, number];
+
+
+function Generate(){
+    prompt("Would you like Capital Letters?");
+    prompt("Would you like  Characters in your password?");
+    prompt("Would you like numbers");
+
+    // for (var i = 0; i < allOptions.length; i++) {
+    //     console.log(allOptions[i]);}    
+}
