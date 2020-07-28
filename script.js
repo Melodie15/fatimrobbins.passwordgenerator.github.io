@@ -7,14 +7,33 @@ var letter = ["a", "b", "c", "d", "e", "f", "g", "i", "h","J", "k", "l", "m", "n
 
 var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
-var allOptions = [capLetter, character, letter, number];
+var randomString = '';
+
+// var allOptions = [capLetter, character, letter, number];
 
 
 function Generate(){
-    prompt("Would you like Capital Letters?");
-    prompt("Would you like  Characters in your password?");
+    prompt("How long would you like your password to be?");
+    prompt("Would you like special characters?");
+    prompt("Would you like uppercase letters?");
     prompt("Would you like numbers");
 
-    // for (var i = 0; i < allOptions.length; i++) {
-    //     console.log(allOptions[i]);}    
+    for(var i=0;i<2;i++){
+        var rCaplet = Math.floor(Math.random()*capLetter.length);
+        randomString += capLetter[rCaplet];
+    }
+    for(var i=0;i<2;i++){
+        var rnum = Math.floor(Math.random()*number.length);
+        randomString += number[rnum];
+    }
+    for(var i=0;i<2;i++){
+        var rLet = Math.floor(Math.random()*letter.length);
+        randomString += letter[rLet];
+    }
+    for(var i=0;i<2;i++){
+        var chart = Math.floor(Math.random()*character.length);
+        randomString += character[chart];
+    }
+ alert(randomString);
+    
 }
