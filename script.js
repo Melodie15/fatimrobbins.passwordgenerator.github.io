@@ -14,6 +14,7 @@ var allOptions = [capLetter, character, letter, number];
 
 
 function Generate(){
+    randomString="";
     var charactChoice = prompt("How many characters would you like? 8 or 10?", "enter");
     var specCharChoice = prompt("Would you like special characters?","enter y or n");
     var upperChoice = prompt("Would you like uppercase letters?", "enter y or n");
@@ -39,15 +40,11 @@ function Generate(){
         randomString += character[chart];
     }
 
-    // radomString = document.getElementById("results").innerHTML;
+    document.getElementById("results").innerHTML = randomString;
     
     console.log(randomString);
 }
 }
 
-    // var randomString = document.querySelectorAll("results");
-    // randomString.textContent;
-    // document.getElementById("results").textContent(randomString);
-    // randomString();
-    
+   
 
