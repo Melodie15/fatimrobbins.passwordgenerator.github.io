@@ -12,3 +12,6 @@ Screenshot-
 <img src="screenshot.png" alt="screenshot of app">
 
 lINK TO THE PASSWORD GENERATOR - https://melodie15.github.io/fatimrobbins.passwordgenerator.github.io/
+
+Fatim S. Robbins
+fmsis@hotmail.com
