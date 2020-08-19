@@ -8,3 +8,5 @@ Technology used-
 HTML, CSS and Javascript
 
 Screenshot- 
+
+<img src="screenshot.png" alt="screenshot of app">
